@@ -1,0 +1,5 @@
+dependencies:
+  espressif/esp-tflite-micro:
+    version: "*"
+    override_path: "../../../"
+  espressif/esp-box-3: "^3.0.2"
