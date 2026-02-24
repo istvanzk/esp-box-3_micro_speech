@@ -20,8 +20,8 @@ The default micro_spech ML model is a 20 kB model that can recognize 2 keywords,
 The application listens to its surroundings with a microphone and indicates
 when it has detected a word by displaying data on a screen.
 
-**NOTE**: The modified micro_speech code in this repo _is being tested_ with ESP-IDF version `release/v5.3`, ESP-ADF version `release/v2.7` 
-and on the [ESP32-S3-BOX-3](https://github.com/espressif/esp-box/blob/master/docs/hardware_overview/esp32_s3_box_3/hardware_overview_for_box_3.md) device only.
+**NOTE**: The modified micro_speech code in this repo _is being tested_ with ESP-IDF version `release/v5.3` and ESP-ADF version `release/v2.7` 
+and only on the [ESP32-S3-BOX-3](https://github.com/espressif/esp-box/blob/master/docs/hardware_overview/esp32_s3_box_3/hardware_overview_for_box_3.md) device.
 
 <details>
 <summary>Modified files</summary>
@@ -49,7 +49,7 @@ devices using the [ESP IDF](https://github.com/espressif/esp-idf).
 Follow the instructions of the
 [ESP-IDF get started guide](https://docs.espressif.com/projects/esp-idf/en/latest/get-started/index.html)
 to setup the toolchain and the ESP-IDF itself.
-[IDF v5.4 is required](https://github.com/espressif/esp-adf/blob/master/README.md#idf-version) by the ESP-ADF v2.7.
+[IDF v5.3 is required](https://github.com/espressif/esp-adf/tree/release/v2.x) when using ESP-ADF v2.7.
 
 The next steps assume that the
 [IDF environment variables are set](https://docs.espressif.com/projects/esp-idf/en/latest/get-started/index.html#step-4-set-up-the-environment-variables) :
